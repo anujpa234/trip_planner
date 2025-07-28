@@ -1,0 +1,39 @@
+faiss_db:
+  collection_name: "trip_planner"
+
+required_env_vars:
+  - "GEMINI_API_KEY"
+  - "GROQ_API_KEY"
+  - "OPENAI_API_KEY"
+  - "GPLACES_API_KEY"
+
+embedding_model:
+  google:
+    model_name: "models/text-embedding-004"
+  openai:
+    model_name: "text-embedding-3-small" # max input 8192
+
+
+retriever:
+  top_k: 10
+
+llm:
+  groq:
+    provider: "groq"
+    model_name: "deepseek-r1-distill-llama-70b"
+    temperature: 0
+    max_output_tokens: 2048
+
+  google:
+    provider: "google"
+    model_name: "gemini-2.0-flash"
+    temperature: 0
+    max_output_tokens: 2048
+
+  openai:
+    provider: "openai"
+    model_name: "gpt-4.1"
+    temperature: 0
+    max_output_tokens: 2048 
+
+  

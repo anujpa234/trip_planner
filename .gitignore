@@ -1,0 +1,10 @@
+env/
+.env
+logs/
+*.pyc
+test.py
+__pycache__/
+venv/
+.DS_Store
+TRIP_PLANNER_FIXES_SUMMARY.md
+TRIP_PLANNER_NULL_DATA_FIXES.md
