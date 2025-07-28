@@ -46,15 +46,6 @@ git clone https://github.com/sunnysavita10/document_portal.git
 - **Hugging Face** (Free)
 - **Ollama** (Local Setup)
 
-### Embedding Models
-- **OpenAI**
-- **Hugging Face**
-- **Gemini**
-
-### Vector Databases
-- **In-Memory**
-- **On-Disk**
-- **Cloud-Based**
 
 ## API Keys
 
@@ -63,5 +54,9 @@ git clone https://github.com/sunnysavita10/document_portal.git
 - [Groq Documentation](https://console.groq.com/docs/overview)
 
 ### Gemini API Key
+- [Get your API Key](https://aistudio.google.com/apikey)  
+- [Gemini Documentation](https://ai.google.dev/gemini-api/docs/models)
+
+### Google Places API Key
 - [Get your API Key](https://aistudio.google.com/apikey)  
 - [Gemini Documentation](https://ai.google.dev/gemini-api/docs/models)
